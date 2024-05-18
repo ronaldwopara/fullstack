@@ -1,0 +1,56 @@
+body {
+ background-color: black;
+ text-align: center;
+ margin: 0;
+ padding: 0;
+}
+
+h1 {
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: normal;
+ color: white;
+ text-align: center;
+ margin-top: 20px;
+}
+
+
+a {
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ color: aquamarine;
+ font-size: 16px;
+ text-align: center;
+ display: block;
+ margin: 20px;
+}
+
+video {
+ display: block;
+ margin: 20px auto;
+}
+
+p.first, p.coming{
+ font-family: Verdana;
+ font-weight: 300;
+ font-size: 42px;
+ color: white;
+ text-align: center;
+}
+
+.second {
+ font-family: Verdana;
+ font-size: 21px;
+ color: gray;
+ text-align: center;
+}
+
+img.camp {
+ display: block;
+ margin: 20px auto;
+ width: 80%;
+}
+
+.about {
+ text-align: right;
+ color: gray;
+ font-family: Verdana;
+}
