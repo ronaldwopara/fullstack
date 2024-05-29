@@ -266,7 +266,7 @@ background-color: hsl(350, 100%, 80%);
 
 /* Red saturation decreases by 15 */
 .reds .saturation .color-1 {
-
+ background-color: hsl(350, 90%, 20%);
 }
 
 .reds .saturation .color-2 {
@@ -287,7 +287,7 @@ background-color: hsl(350, 100%, 80%);
 
 /* Red hue increases by 15 */
 .reds .hue .color-1 {
-
+ background-color: hsl(320, 100%, 50%);
 }
 
 .reds .hue .color-2 {
@@ -335,7 +335,7 @@ background-color: hsl(350, 100%, 80%);
 
 /* Green saturation decreases by 20 */
 .greens .saturation .color-1 {
-
+  background-color: hsl(130, 100%, 50%);
 }
 
 .greens .saturation .color-2 {
@@ -356,7 +356,7 @@ background-color: hsl(350, 100%, 80%);
 
 /* Green hue increases by 22 */
 .greens .hue .color-1 {
-
+  background-color: hsl(86, 100%, 50%);
 }
 
 .greens .hue .color-2 {
@@ -404,7 +404,7 @@ background-color: hsl(350, 100%, 80%);
 
 /* Blue saturation decreases by 20 */
 .blues .saturation .color-1 {
-
+  background-color: hsl(220, 100%, 50%);
 }
 
 .blues .saturation .color-2 {
@@ -425,7 +425,7 @@ background-color: hsl(350, 100%, 80%);
 
 /* Blue hue decreases by 20 */
 .blues .hue .color-1 {
-
+  background-color: hsl(220, 80%, 50%);
 }
 
 .blues .hue .color-2 {
