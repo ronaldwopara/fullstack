@@ -26,8 +26,7 @@ Welcome to my FullStack Journey repository! This repository documents my journey
         - **paint-reset.css**: CSS file for resetting styles in the Paint Store project.
         - **paint-style.css**: CSS file for styling the Paint Store project.
       - **paint-index.html**: HTML file for the Paint Store project homepage.
-  - **.DS_Store**: macOS system file.
-  - **README.txt**: Text file providing essential information about the repository.
+  - **README.mdt**: Markdown file providing essential information about the repository.
 
 ## Installation
 To set up this repository on your local machine, follow these steps:
