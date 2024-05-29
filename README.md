@@ -1,4 +1,4 @@
-# FullStack Journey Repository README
+# FullStack Journey Repository
 
 ## Description
 Welcome to my FullStack Journey repository! This repository documents my journey in full-stack development, featuring various projects and resources I've encountered along the way. Whether you're starting your own journey or looking for inspiration, you'll find valuable content here to enhance your skills and projects.
