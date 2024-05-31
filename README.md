@@ -45,11 +45,15 @@ To set up this repository on your local machine, follow these steps:
 
 1. Clone the repository:
 
+```sh
    git clone <https://github.com/your-username/fullstack.git>
+```
 
-2.Navigate to the project directory:
+ 2. Navigate to the project directory:
 
+```sh
    cd fullstack
+```
 
 ## Usage
 
@@ -69,7 +73,9 @@ To run the Form Sentence project:
 
 1. Navigate to the Form Sentence directory:
 
-   cd HTML-CSS-JS-projects/form-sentence
+  ```sh
+     cd HTML-CSS-JS-projects/form-sentence
+  ```
 
 2. Open `form-sentence-index.html` in a web browser.
 
