@@ -12,11 +12,11 @@ Welcome to the FullStack repository! This repository contains various projects t
     - **davis-burger-reset.css**: CSS file for resetting styles in the Davis Burger project.
     - **davis-burger-style.css**: CSS file for styling the Davis Burger project.
   - **excursions/**
-    - **resources/**
-      - **images/**
-        - **camp.jpg**: Image of a campsite.
-        - **phone.png**: Image of a phone.
-      - **videos/**
+    - **excursion-resources/**
+      - **excursion-images/**
+        - **excursion-camp.jpg**: Image of a campsite.
+        - **excursion-phone.png**: Image of a phone.
+      - **excursion-videos/**
         - **excursion.mp4**: Video showcasing an excursion.
       - **.DS_Store**: macOS system file.
     - **index.html**: HTML file for the Excursions project homepage.
