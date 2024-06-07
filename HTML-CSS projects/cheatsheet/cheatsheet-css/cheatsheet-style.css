@@ -1,0 +1,115 @@
+/* Universal Styles */
+/* Reset CSS */
+body, h1, h2, h3, p, ul, li {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+ font-family: "Suisse Int'l Mono", monospace;
+ background-color: #f2f2f2;
+ color: #333;
+ line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+ background-color: #fff;
+ padding: 10px 20px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left, .right {
+ display: flex;
+ align-items: center;
+}
+
+nav li {
+ display: inline-block;
+ margin-right: 20px;
+}
+
+nav a {
+ text-decoration: none;
+ color: #333;
+}
+
+nav a:hover {
+ color: #2176FF;
+}
+
+/* Main Styles */
+main {
+ padding: 20px;
+}
+
+.banner {
+ background-color: #2176FF;
+ color: #fff;
+ padding: 20px;
+ text-align: center;
+}
+
+.banner h1 {
+ font-size: 36px;
+ margin-bottom: 10px;
+}
+
+.banner ul {
+ list-style-type: none;
+ padding: 0;
+ margin-top: 20px;
+}
+
+.banner ul li {
+ display: inline-block;
+ margin-right: 20px;
+}
+
+.banner ul li img {
+ vertical-align: middle;
+ margin-right: 5px;
+}
+
+/* Section Styles */
+section {
+ margin-top: 40px;
+}
+
+article {
+ margin-bottom: 40px;
+}
+
+article h3 {
+ margin-bottom: 10px;
+ color: #2176FF;
+}
+
+article p {
+ margin-bottom: 10px;
+}
+
+/* Code Block Styles */
+.code-block {
+ background-color: #f9f9f9;
+ padding: 10px;
+ margin-top: 10px;
+ border-radius: 5px;
+ font-family: 'Suisse Int'l Mono', monospace;
+}
+
+.highlight {
+ color: #2176FF;
+}
+
+ 
+ 
+
+
+
+

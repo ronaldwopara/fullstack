@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <title>HTML &amp; CSS CHEATSHEET</title>
+  <link rel="stylesheet" href="cheatsheet-css/cheatsheet-reset.css">
+  <link rel="stylesheet" href="cheatsheet-css/cheatsheet-style.css">
+  <link href="https://db.onlinewebfonts.com/c/008acf881eac29f0c639b8e2345a1764?family=Suisse+Int%27l+Mono" rel="stylesheet">
+ </head>
+
+ <body>
+  <header> 
+   <ul class="left">
+    <li>
+     <div class="home-logo"> 
+      <a ><img src="cheatsheet-resources/cheatsheet-logo.png" alt="logo" width="140px" height="50px"></a> 
+      </div>
+    </li>
+    <nav>
+     <li>
+      <a>My Home</a>
+     </li>
+     <li>
+      <a class="drop-down" >Catalog</a>
+      <img src="cheatsheet-resources/cheatsheet-caret-bottom-black.png"width="16px" height="16px" alt="caret-sign-black">
+     </li>
+     <li>
+      <a class="drop-down" >Resources</a>
+      <img src="cheatsheet-resources/cheatsheet-caret-bottom-black.png" alt="caret-sign-black"width="16px" height="16px" >
+     </li>
+     <li>
+      <a class="drop-down" >Community</a>
+      <img src="cheatsheet-resources/cheatsheet-caret-bottom-black.png" alt="caret-sign-black" width="16px" height="16px" >
+     </li>
+     <li>
+      <a class="new" >Career Center</a><span>New</span>
+     </li>
+     <li>
+      <a >For Teams</a>
+     </li>
+    </nav>
+    
+   </ul>
+   <ul class="right">
+    <li>
+     <img src="cheatsheet-resources/cheatsheet-search.svg" alt="search" width="32px" height="32px">
+    </li>
+    <li>
+     <img src="cheatsheet-resources/cheatsheet-bell.svg" alt="bell"  width="32px" height="32px">
+    </li>
+    <li>
+     <img src="cheatsheet-resources/cheatsheet-profile-picture.png" alt="profile picture">
+    </li>
+   </ul>
+  </header>
+  <main>
+   <div class="banner">
+    <h3>Cheatsheets/Learn CSS</h3>
+    <h1>Visual Rules</h1>
+    <ul>
+     <li>
+      <img src="cheatsheet-resources/cheatsheet-download-icon.png" alt="download-icon">
+      <a >Print Cheatsheet</a></li>
+     <li>
+      <img src="cheatsheet-resources/cheatsheet-share.png" alt="share-icon" width="16px" height="16px"> 
+      <a >Share</a>
+      <img src="cheatsheet-resources/cheatsheet-caret-bottom-yellow.png" alt="caret-sign-yellow" width="16px" height="16px">
+     </li>
+    </ul>
+   </div>
+   <nav>
+    <div class="topics-bar">
+     <ul>
+      <li>Syntax and Selectors</li>
+      <li>Visual Rules</li>
+      <li>The Box Model</li>
+      <li>Display and Positioning</li>
+      <li>Colors</li>
+      <li>Typography</li>
+     </ul>
+    </div>
+   </nav>
+
+   <section>
+
+    <article>
+     <h3> CSS declarations </h3>
+     <br>
+     <ul>
+      <li>
+       <p>
+        In CSS, a <em>decleration</em> is the key-value pair of a CSS property and its value. CSS declarations are used to set style properties and construct rules to apply to individual or groups of elements. The property name and value are separated by a colon, and the entire declaration must be terminated by a semi-colon.
+       </p>
+      </li>
+
+      <li>
+       <div class="code-block">
+        /* <br>
+        CSS declaration format: <br>
+        property-name: value; <br>
+        */
+        <br>
+        <br>
+        /* CSS declarations */ <br>
+        text-align: center; <br>
+        color: purple; <br>
+        width: 100px; <br>
+       </div>
+      </li>
+     </ul>
+    </article>
+
+    <article>
+     <h3> Font Size </h3>
+     <br>
+     <ul>
+      <li>
+       <p>
+        The <span class="highlight">font-size</span> CSS property is used to set text sizes. Font size values can be many different units or types such as pixels.
+       </p>
+      </li>
+
+      <li>
+       <div class="code-block">
+        font-size: 30px;
+       </div>
+      </li>
+     </ul>
+    </article>
+
+    <article>
+     <h3> Background Color </h3>
+     <br>
+     <ul>
+      <li>
+       <p>
+        The <span class="highlight">background-color</span> CSS property controls the background color of elements.
+       </p>
+      </li>
+
+      <li>
+       <div class="code-block">
+        background-color: blue;
+       </div>
+      </li>
+     </ul>
+    </article>
+
+    <article>
+     <h3> <span class="highlight">!important</span> Rule </h3>
+     <br>
+     <ul>
+      <li>
+       <p>
+        The CSS <span class="highlight">!important</span> rule is used on declarations to override any other declarations for a property and ignore selector specificity. <span class="highlight">!important</span> rules will ensure that a specific declaration always applies to the matched elements. However, generally it is good to avoid using <span class="highlight">!important</span> as bad practice.
+       </p>
+      </li>
+
+      <li>
+       <div class="code-block">
+        #column-one { <br>
+         width: 200px !important; <br>
+       }
+       <br>
+       <br>
+       .post-title { <br>
+         color: blue !important; <br>
+       }
+       </div>
+      </li>
+     </ul>
+    </article>
+
+    <article>
+     <h3> Opacity </h3>
+     <br>
+     <ul>
+      <li>
+       <p>
+        The <span class="highlight">opacity</span> CSS property can be used to control the transparency of an element. The value of this property ranges from <span class="highlight">0</span> (transparent) to <span class="highlight">1</span> (opaque).
+       </p>
+      </li>
+
+      <li>
+       <div class="code-block">
+        opacity: 0.5;
+       </div>
+      </li>
+     </ul>
+    </article>
+
+    <article>
+     <h3> Font Weight </h3>
+     <br>
+     <ul>
+      <li>
+       <p>
+        The <span class="highlight">font-weight</span> CSS property can be used to set the weight (boldness) of text. The provided value can be a keyword such as <span class="highlight">bold</span> or <span class="highlight">normal</span>.
+       </p>
+      </li>
+
+      <li>
+       <div class="code-block">
+        font-weight: bold;
+       </div>
+      </li>
+     </ul>
+    </article>
+
+    <article>
+     <h3> Text Align </h3>
+     <br>
+     <ul>
+      <li>
+       <p>
+        The <span class="highlight">text-align</span> CSS property can be used to set the text alignment of inline contents. This property can be set to these values: <span class="highlight">left</span>, <span class="highlight">right</span>, or <span class="highlight">cener</span>.
+       </p>
+      </li>
+
+      <li>
+       <div class="code-block">
+        text-align: right;
+       </div>
+      </li>
+     </ul>
+    </article>
+
+    <article>
+     <h3> CSS Rule Sets </h3>
+     <br>
+     <ul>
+      <li>
+       <p>
+        A CSS rule set contains one or more selectors and one or more declarations. The selector(s), which in this example is <span class="highlight">h1</span>, points to an HTML element. The declaration(s), which in this example are <span class="highlight">color: blue</span> and <span class="highlight">text-align: center</span> style the element with a property and value. The rule set is the main building block of a CSS sheet.
+       </p>
+      </li>
+
+      <li>
+       <div class="code-block">
+        h1 { <br>
+         color: blue; <br>
+         text-align: center; <br>
+       }
+       </div>
+      </li>
+     </ul>
+    </article>
+
+    <article>
+     <h3> Setting foreground text color in CSS </h3>
+     <br>
+     <ul>
+      <li>
+       <p>
+        Using the <span class="highlight">color</span> property, foreground text color of an element can be set in CSS. The value can be a valid color name supported in CSS like <span class="highlight">green</span> or <span class="highlight">blue</span>. Also, 3 digit or 6 digit color code like <span class="highlight">#22f</span> or <span class="highlight">#2a2aff</span> can be used to set the color.
+       </p>
+      </li>
+
+      <li>
+       <div class="code-block">
+        p { <br>
+         color : #2a2aff ; <br>
+       }
+       <br>
+       <br>
+       span { <br>
+         color : green ; <br>
+       }
+       </div>
+      </li>
+     </ul>
+    </article>
+
+    <article>
+     <h3> Resource URLs </h3>
+     <br>
+     <ul>
+      <li>
+       <p>
+        In CSS, the <span class="highlight">url()</span> function is used to wrap resource URLs. These can be applied to several properties such as the <span class="highlight">background-image</span>.
+       </p>
+      </li>
+
+      <li>
+       <div class="code-block">
+        background-image: url("../resources/image.png");
+       </div>
+      </li>
+     </ul>
+    </article>
+
+    <article>
+     <h3> Background Image </h3>
+     <br>
+     <ul>
+      <li>
+       <p>
+        The <span class="highlight">background-image</span> CSS property sets the background image of an element. An image URL should be provided in the syntax <span class="highlight">url("moon.jpg")</span> as the value of the property.
+       </p>
+      </li>
+
+      <li>
+       <div class="code-block">
+        background-image: url("nyan-cat.gif");
+       </div>
+      </li>
+     </ul>
+    </article>
+
+    <article>
+     <h3> Font Family </h3>
+     <br>
+     <ul>
+      <li>
+       <p>
+        The <span class="highlight">font-family</span> CSS property is used to specify the typeface in a rule set. Fonts must be available to the browser to display correctly, either on the computer or linked as a web font. If a font value is not available, browsers will display their default font. When using a multi-word font name, it is best practice to wrap them in quotes.
+       </p>
+      </li>
+
+      <li>
+       <div class="code-block">
+        h2 { <br>
+         font-family: Verdana; <br>
+       }
+       <br>
+       <br>
+       #page-title { <br>
+         font-family: "Courier New";
+       }
+       </div>
+      </li>
+     </ul>
+    </article>
+
+    <article>
+     <h3> Color Name Keywords </h3>
+     <br>
+     <ul>
+      <li>
+       <p>
+        Color name keywords can be used to set color property values for elements in CSS.
+       </p>
+      </li>
+
+      <li>
+       <div class="code-block">
+        h1 { <br>
+         color: aqua; <br>
+       }
+       <br>
+       <br>
+       li { <br>
+         color: khaki; <br>
+       } 
+       </div>
+      </li>
+     </ul>
+    </article>
+   </section>
+  </main>
+
+  <nav>
+   <ul>
+    <li>
+     <img src="cheatsheet-resources/cheatsheet-arrow-left.png" alt="arrow-left" width="16px" height="16px"> 
+     <a >Previous</a></li>
+
+    <li>
+     <img src="cheatsheet-resources/cheatsheet-arrow-right.png" alt="arrow-right" width="16px" height="16px">
+     <a >Next</a></li>
+    </li>
+   </ul>
+  </nav>
+ </body>
+
+</html>
