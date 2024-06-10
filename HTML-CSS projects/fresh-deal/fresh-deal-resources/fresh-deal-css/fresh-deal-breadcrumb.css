@@ -1,0 +1,44 @@
+.breadcrumb li{
+ display: inline;
+ padding:0px 5px;
+ float: left;
+ color: rgb(88, 138, 39);
+}
+
+.breadcrumb li + li::before {
+ content: " > ";
+ color: gray;
+}
+
+.breadcrumb li :hover{
+ color: gray;
+}
+
+.breadcrumb li.attribute::before {
+ content: " >> ";
+}
+
+.breadcrumb li.attribute{
+ color: gray;
+}
+
+.breadcrumb li.attribute a.remove {
+ display: inline-block;
+ text-align: center;
+ color: red;
+ font-size: 10px;
+ line-height: 10px;
+ vertical-align: super;
+ border: 1px solid rgb(88, 138, 39);
+ background: rgb(88, 138, 39);
+ border-radius: 10px;
+ margin-left: .1px;
+ padding: 0px 5px; /* Ensure padding is consistent */
+ text-decoration: none;
+}
+
+.breadcrumb li.attribute a.remove:hover {
+ background: red; 
+ color: white;
+ border-color: red; /* Change border color on hover */
+}
