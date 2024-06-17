@@ -1,0 +1,134 @@
+html, body {
+ margin: 0;
+ padding: 0;
+ font-family: 'Libre Baskerville', sans-serif;
+}
+
+img {
+ margin: 10px auto;
+ height: auto;
+ width: auto;
+}
+
+ul {
+ text-align: center;
+}
+
+h1 {
+ font-size: 20px;
+}
+
+/*Sizing*/
+
+.container {
+ margin: 0 auto;
+}
+
+.spacer {
+ max-width: 1200px;
+ margin: auto;
+}
+
+.main {
+   background-color: #ffc200;
+}
+
+/*Header Section*/
+
+.nav-menu {
+ display: flex;              /* Makes the <ul> a flex container */
+ list-style: none;           /* Removes bullet points */
+ padding: 0;
+ margin: 0;
+ justify-content: space-around;    /* Centers items horizontally */
+ align-items: center;        /* Centers items vertically */
+ background-color: #f8f8f8;  /* Background color for the nav */
+ height: 60px;               /* Fixed height for the nav */
+}
+
+.nav-menu li {
+ margin: 0 15px;             /* Adds space between items */
+ flex: 1;                    /* Makes each <li> take up equal space */
+}
+
+.nav-menu li a {
+ text-decoration: none;
+ color: #333;
+}
+
+.nav-menu li a:hover{
+ color: rgb(254, 182, 10);
+ text-decoration: underline;
+}
+
+
+/*Jumbotron Section*/
+
+.jumbotron {
+ background-color: #fff;
+ max-width: 1200px;
+ margin-left: 50px;
+}
+
+.jumbotron h2 {
+ font-size: 50px;
+ margin-bottom: 70px;
+}
+
+.jumbotron h2 span {
+ color:#ffc200;
+}
+
+.jumbotron p {
+ text-shadow: 0 0;
+ font-size: 16px;
+ color: #666;
+ margin-bottom: 0;
+}
+
+/*Banner Section*/
+.banner {
+ background-color: #333;
+ color: #fff;
+ padding: 20px;
+ text-align: center;
+}
+
+/*Expertise Section*/
+.cards {
+ background-color: #ffc200;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+}
+
+.col {
+ display: inline-flex;
+ flex-direction: column;
+ justify-content: space-between
+}
+
+#expertise {
+ padding: 20px;
+ background-color: #ffc200;
+ margin: 0;
+ text-align: center;
+}
+
+/*Footer Section*/
+.footer {
+ padding: 60px 0px;
+ background-color: #000;
+ color: #fff;
+}
+
+.footer h3 {
+ font-size: 20px;
+ margin-left: 20px;
+}
+
+.footer p {
+ font-size:12px;
+ margin-bottom: 0;
+ margin-left: 20px;
+}
